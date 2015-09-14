@@ -1,39 +1,3 @@
-/*************************************************** 
-  This is an example for the Adafruit CC3000 Wifi Breakout & Shield
-
-  Designed specifically to work with the Adafruit WiFi products:
-  ----> https://www.adafruit.com/products/1469
-
-  Adafruit invests time and resources providing this open source code, 
-  please support Adafruit and open-source hardware by purchasing 
-  products from Adafruit!
-
-  Written by Kevin Townsend & Limor Fried for Adafruit Industries.  
-  BSD license, all text above must be included in any redistribution
- ****************************************************/
-
-/*
-
-This example does a full test of core connectivity:
-* Initialization
-* SSID Scan
-* AP connection
-* DHCP printout
-* DNS lookup
-* Ping
-* Disconnect
-It's a good idea to run this sketch when first setting up the
-module.
-
-*/
-
-#include <WildFire_CC3000.h>
-#include <ccspi.h>
-#include <SPI.h>
-#include <string.h>
-#include "utility/debug.h"
-#include <WildFire.h>
-WildFire wf;
 
 WildFire_CC3000 cc3000;
 
